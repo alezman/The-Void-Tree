@@ -261,6 +261,9 @@ addLayer("p", {
             effect() {
                 let x = player.points.add(1).log(1.00001).pow(1.3).add(1)
                 return x
+            },
+            unlocked() {
+                if (hasUpgrade('a',25)) return true
             }
         },
         45: {
