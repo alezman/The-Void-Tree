@@ -23,11 +23,11 @@ addLayer("tree-tab", {
 addLayer("tree-tab", {
     tabFormat: {
         "Test": {
-            embedLayer() { return "x" }
+            embedLayer() { return "p" }
             unlocked() { return hasUpgrade('p', 15)}},
+    },
     previousTab: "",
     leftTab: true,
-    }
 })
 ```
 
